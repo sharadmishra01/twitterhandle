@@ -35,6 +35,7 @@ public class TwitterTestUser {
 		// twitter.setOAuthConsumer(consumerKey, consumerSecret);
 
 		twitterStream.setOAuthAccessToken(token);
+//		twitterStream.s
 		User user = twitterStream.showUser("writetosharad");
 		System.out.println(" user has name " + user.getName());
 		System.out.println(" user has followers " + user.getFollowersCount());
